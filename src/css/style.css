@@ -1,0 +1,48 @@
+.App {
+    background-color: green;
+    height: 100vh;
+}
+
+.okay {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.calc-buttons button{  
+    height: 100px;
+    border: 2px solid gray;
+    background: #e3e0e7;
+    font-size: 32px;
+    color: black;
+
+}
+
+.col-3{
+    width: 75%;
+    float: left;
+}
+
+.col-2{
+    width: 50%;
+    float: left;
+}
+
+.col-1{
+    width: 25%;
+    float: left;
+}
+
+.current-number {
+    margin-left: -10px;
+    width: 520px;
+    float: left;
+    font-size: 25px;
+    height: 70px;
+    text-align: right;
+    border: none;
+    cursor: default;
+}
+
+.current-number:hover {
+    border: none;
+}
